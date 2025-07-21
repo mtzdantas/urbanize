@@ -5,6 +5,7 @@ description = "Aplicativo de gestão para corretores imobiliários"
 readme = "README.md"
 requires-python = ">=3.9"
 dependencies = [
+    "bcrypt>=4.3.0",
     "fastapi[standard]>=0.116.1",
     "sqlalchemy>=2.0.41",
 ]
